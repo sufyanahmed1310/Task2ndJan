@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "Even numbers from 1 to 30:"
+for ((i=1; i<=30; i++)); do
+    if [ $((i % 2)) -eq 0 ]; then
+        echo $i
+    fi
+done
+
+echo "Odd numbers from 1 to 30:"
+for ((i=1; i<=30; i++)); do
+    if [ $((i % 2)) -ne 0 ]; then
+        echo $i
+    fi
+done
+		
