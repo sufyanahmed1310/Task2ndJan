@@ -1,0 +1,8 @@
+#!/bin/bash
+
+variable="Hello"
+if [ "$variable" == "" ]; then
+	echo "Variable is empty"
+else
+	echo "variable is not empty"
+fi
